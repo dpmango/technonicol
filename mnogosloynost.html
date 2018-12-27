@@ -14,7 +14,15 @@
 <link href="http://shinglas.ru/local/css/lang/ru.css?150168917556" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="http://shinglas.ru/bitrix/js/main/core/css/core.min.css?14951244742854" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="http://shinglas.ru/local/bitrix/templates/smartinner/styles.css?1501689175365" type="text/css"  data-template-style="true"  rel="stylesheet" />
-    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="stylesheet" href="css/sprites.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/autocomplete.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/states.css">
   </head>
   <body class="page-article">
     <div class="app">
@@ -425,7 +433,9 @@
         <article class="article">
           <div class="container-fluid">
             <div class="article__head article__head--right">
-              <figure class="article__head-image"><img src="images/img-m-hero.jpg" alt=""></figure>
+              <picture class="article__head-image">
+                <source srcset="images/img-m-hero-320.jpg" media="(max-width: 576px)"><img src="images/img-m-hero.jpg" alt="">
+              </picture>
               <div class="row">
                 <div class="col-xl-6 push-xl-6">
                   <h1 class="article__head-title">Многослойность<small>обеспечивает необходимую защиту, долговечность и комфорт</small></h1>
@@ -442,7 +452,9 @@
                     </div>
                   </div>
                   <div class="col-sm-6 pull-sm-6">
-                    <figure class="article__section-image article__section-image--left"><img src="images/img-m-01.jpg" alt=""></figure>
+                    <picture class="article__section-image article__section-image--left">
+                      <source srcset="images/img-m-01-320.jpg" media="(max-width: 576px)"><img src="images/img-m-01.jpg" alt="">
+                    </picture>
                   </div>
                 </div>
               </section>
