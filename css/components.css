@@ -532,7 +532,7 @@
   padding: 0 0 15rem;
   list-style: none;
   -ms-flex: 1;
-  flex: 1;
+  flex: 1 1;
   display: -ms-flexbox;
   display: flex;
   position: relative; }
@@ -787,7 +787,7 @@
   margin: 0;
   padding: 0 10rem;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1 1; }
   @media (max-width: 991px) {
     .collection__cutting-text {
       font-size: 12rem;
@@ -798,13 +798,13 @@
   margin: 0;
   padding: 0 10rem;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1 1; }
 
 .collection__cutting-image {
   margin: 0;
   padding: 0 10rem;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1 1; }
 
 .collection__adv {
   display: -ms-flexbox;
@@ -2235,7 +2235,7 @@
   padding: 45rem 50rem 40rem;
   margin: 0 0 80rem;
   -ms-flex: 1;
-  flex: 1; }
+  flex: 1 1; }
   .support--grey {
     background: #F7F7F7; }
   @media (max-width: 991px) {
@@ -3826,7 +3826,7 @@ form input.location__input {
   display: block;
   white-space: nowrap;
   -ms-flex: 1;
-  flex: 1;
+  flex: 1 1;
   font-size: 17rem;
   line-height: 22rem;
   font-weight: 700;

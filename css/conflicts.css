@@ -22,3 +22,10 @@ table {
     display: none; }
   .gallery__item img {
     position: static; }
+
+.journal-page .header .container-fluid, .journal-page .header .header__panel {
+  max-width: 1240px !important; }
+
+.journal-page .main > .container-fluid {
+  padding-left: 0;
+  padding-right: 0; }

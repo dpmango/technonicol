@@ -197,7 +197,7 @@
 
 .prod__blockquote-desc {
   -ms-flex: 1;
-  flex: 1;
+  flex: 1 1;
   text-align: right;
   padding: 0 0 0 10rem; }
   .prod__blockquote-desc p {
@@ -1431,7 +1431,7 @@
     z-index: 1;
     padding: 0 35rem;
     -ms-flex: 1;
-    flex: 1; }
+    flex: 1 1; }
     .prod__section-progress > li:after {
       content: '';
       display: block;
@@ -1456,7 +1456,7 @@
       margin: -11rem 0 0 -11rem; }
     .prod__section-progress > li:last-child {
       -ms-flex: 1.5;
-      flex: 1.5;
+      flex: 1.5 1;
       font-weight: 600;
       text-transform: uppercase; }
       .prod__section-progress > li:last-child:after {
